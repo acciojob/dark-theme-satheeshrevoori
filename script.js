@@ -1,3 +1,4 @@
+<script src="./script.js">
 function swapTheme() {
     let paraElement = document.getElementById("app");
     let buttonElement = document.getElementById("swap");
@@ -6,3 +7,4 @@ function swapTheme() {
     buttonElement.classList.toggle('button_day');
     buttonElement.classList.toggle('button_night');
 }
+</script>
